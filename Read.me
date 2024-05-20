@@ -1,0 +1,39 @@
+Opened: Tuesday, 19 March 2024, 7:00 PM
+Due: Friday, 29 March 2024, 11:59 PM
+
+Inventory Project
+
+Create an inventory program that can be used for a range of different products (furniture, books, CDs, DVDs, software, etc.).
+
+For each part, build upon the last part so that both the old and new requirements are met.
+There are several parts to the project.
+Part 1. Classes and Objects.
+Choose a product that lends itself to an inventory (for example, products in your home, school, or workplace: office supplies; music CDs; DVD movies; or software).
+Create a Product class.
+Create four instance variables (class fields): the product number, the name of the product, the number of units in stock, and the price of each unit. Ensure that all the fields are private.
+Create two constructors.
+Write getter/accessor and setter/mutator methods for four instance variables.
+Override the toString() method from the object class that will show a description of each object that includes the variable values.
+Create a Java main class called ProductTester that creates and initializes six Product objects.
+From ProductTester, display the product number, the name of the product, the number of units in stock, and the price of each unit.
+Part 2. Vendor
+Create a Vendor class.
+Create four instance variables: the name on the company, address, the name of representative, phone number. Ensure that all the fields are private.
+Create two constructors.
+Write getter/accessor and setter/mutator methods for four instance variables.
+Override the toString() method from the object class that will show a description of each object that includes the variable values.
+Part 2. Class methods
+Add a Scanner (or use any other I/O class) to ProductTester to ask the user if they would like to add products. Add user input data to the existing array.
+Modify ProductTester so the application can handle multiple items using an array. Print out the array.
+Create a method in the Product class that will calculate the value of each inventory item, using the quantity on hand and price.
+Display the information in ProductTester for these products as was in Part 1. In addition, include the inventory value for each product by modifying the toString() method in Product.
+Part 4. Inheritance
+Modify the Inventory Program by creating a subclass of the product class that uses one additional unique feature of the product you chose (for the DVDs subclass, you could use movie title, for example).
+In the subclass, create a method to calculate the value of the inventory of a product with the same name as the method previously created for the product class. The subclass method should also add a 5% restocking fee to the value of the inventory of that product.
+Modify the output to display this additional feature you have chosen and the restocking fee.
+Part 5. Composition
+Modify Product class - add vendor to product, write getter/accessor and setter/mutator method for Vendor type class variable, and modify toString() method.
+Modify ProductTester by adding vendors’ data to Product objects
+
+
+Test your code in main method.
